@@ -312,6 +312,24 @@ img {
     text-align: center;
     color: var(--second-color-text);
 }
+.network-item {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.network-list {
+    width: 44px;
+    height: 44px;
+}
+.network-link {
+  padding: 0;
+  border: none;
+  fill: rgba(175, 177, 184, 1);
+}
+.network-icon {
+    width: 20px;
+    height: 20px;
+}
 
 /* клієнти */
 .client-title{
@@ -319,31 +337,31 @@ img {
     line-height: 42px;
     text-align: center;
     letter-spacing: 0.03em;
-
+    margin-bottom: 50px;
 }
 
-.cliens-page {
-    display: flex;
-    }
 .client-icon {
-    border: 1px solid red;
-    /* width: 170px;
+    content: " ";
+    width: 170px;
     height: 92px;
-    padding: 16px 32px; */
+    padding: 16px 32px;
  }
  .client-item {
     display: flex;
     justify-content: center;
+    align-items: center;
  }
 .client-list {
-    /* border: 1px solid #AFB1B8;
-    border-radius: 4px; */
+      border: 1px solid #afb1b8;
+      border-radius: 4px;
+}
+
+.client-list:not(:last-child) {
+  margin-right: 30px;
 }
 .client-link {
-    /* padding: 0;
-    border: none;
-    fill: rgba(175, 177, 184, 1); */
-  }
+    
+}
 
 /* footer */
 
