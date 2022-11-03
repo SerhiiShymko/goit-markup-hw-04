@@ -149,6 +149,12 @@ img {
 .hero {
     background-color: var(--second-bg-color);
     padding: 200px 0;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4),
+    rgba(47, 48, 58, 0.4)), url(../images/hero-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: 1600px auto; */
+    
 }
 
 .hero .container {
@@ -306,6 +312,38 @@ img {
     text-align: center;
     color: var(--second-color-text);
 }
+
+/* клієнти */
+.client-title{
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+}
+
+.cliens-page {
+    display: flex;
+    }
+.client-icon {
+    border: 1px solid red;
+    /* width: 170px;
+    height: 92px;
+    padding: 16px 32px; */
+ }
+ .client-item {
+    display: flex;
+    justify-content: center;
+ }
+.client-list {
+    /* border: 1px solid #AFB1B8;
+    border-radius: 4px; */
+}
+.client-link {
+    /* padding: 0;
+    border: none;
+    fill: rgba(175, 177, 184, 1); */
+  }
 
 /* footer */
 
