@@ -366,27 +366,22 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
+ 
   
     border: 1px solid #AFB1B8;
     border-radius: 4px;
     /* outline: 1px solid red; */
 }
-/* .client-box {
-    width: 170px;
-    height: 92px;
-    border: 1px solid #AFB1B8;
-    border-radius: 4px;
-    margin-left: 30px;
-    outline: 1px solid red;
-} */
+
 .client-item {
     width: 170px;
     height: 92px;
     margin-left: 30px;
-    /* margin: 16px 32px; */
+    /* outline: 1px solid red; */
+ 
    
     }
-.client-item:not(:last-child) {
+.client-item:first-child {
   margin-left: 0px;
 }
 .client-list .client-link {
