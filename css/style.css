@@ -120,14 +120,16 @@ img {
 }
 
 .header-list-link:hover,
-.header-list-link:focus,
-.contats:hover,
-.contats:focus {
+.header-list-link:focus {
     color: var(--accent-color);
 }
-
-.contats {
-    display: block;
+.header-contact {
+    display: flex;
+    margin-left: auto;
+}
+.header-contact .contacts {
+    display: flex;
+    align-items: center;
     padding: 32px 0;
 
     font-weight: 500;
@@ -137,15 +139,20 @@ img {
     color: var(--second-color-text);
 }
 
-.header-contact {
-    display: flex;
-    margin-left: auto;
-    ;
-}
+
 .header-contact .item+.item {
     margin-left: 50px;
 }
 
+.header-contact .contacts:hover,
+.header-contact .contacts:focus{
+    color: var(--accent-color);
+}
+.header-contact .icon {
+    margin-right: 10px;
+    fill: none;
+    stroke: currentColor;
+}
 /* Hero styles*/
 .hero {
     background-color: var(--second-bg-color);
